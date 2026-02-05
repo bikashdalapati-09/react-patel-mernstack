@@ -1,9 +1,21 @@
 import Product from "./Product";
-import productObj from "../utills/constant";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 const ProductCard = () => {
-  const [listofProduct, setLListofProduct] = useState(productObj);
+  const [listofProduct, setLListofProduct] = useState([]);
+
+  useEffect(()=>{
+    fetchData()
+  }, [])
+
+  const fetchData = async() => {
+    const data = await fetch("https://raw.githubusercontent.com/bikashdalapati-09/react-patel-mernstack/refs/heads/main/products.json")
+    const resData = await data.json()
+    console.log(resData);
+    setLListofProduct(resData)
+    
+}
+
   return (
     <div>
       <button onClick={() => {

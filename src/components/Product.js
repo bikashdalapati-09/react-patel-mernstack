@@ -1,6 +1,5 @@
 const Product = (props) => {
     const {name, image, memory, price} = props.productObj
-    console.log(props)
     return (
         <div className="product">
             <img className="product-img" src={image}></img>
