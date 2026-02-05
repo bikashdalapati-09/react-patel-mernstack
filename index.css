@@ -79,11 +79,18 @@
     background-color: #d62828;
 }
 .flagship{
-    margin-top: 20px;
-    margin-left: 10px;
-    padding: 9px 16px;
-    display: flex;
-    justify-content: right;
+  margin-top: 15px;
+  margin-left: 25px;
+  padding: 8px 16px;
+  height: 42px;
+
+  border-radius: 6px;
+  border: none;
+  background-color: #e63946;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+
 }
 
 .btnName{
@@ -112,3 +119,38 @@
     margin-left: 30px;
     border-radius: 8px;
 }
+.menu-bar {
+    display: flex;
+}
+.search-bar {
+  display: flex;
+  margin-left: auto;
+  margin-right: 15px;
+  margin-top: 15px;
+  width: 320px;
+  height: 42px;
+  gap: 6px;
+}
+
+.search-bar input {
+  flex: 1;
+  padding: 8px 12px;
+  font-size: 15px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+
+.search-bar button {
+  padding: 0 14px;
+  border-radius: 6px;
+  border: none;
+  background-color: #e63946;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+
+

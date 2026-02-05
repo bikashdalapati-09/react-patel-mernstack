@@ -3,43 +3,56 @@ import { useEffect, useState } from "react";
 import Skeleton from "./Skeleton";
 
 const ProductCard = () => {
-  const [listofProduct, setLListofProduct] = useState([]);
+  const [listofProduct, setListofProduct] = useState([]);
+  const [searchText, setSearchText] = useState("");
+  const [dummydata, setDummydata] = useState([])
 
   useEffect(() => {
-    fetchData()
+    fetchData();
   }, []);
 
   const fetchData = async () => {
-  const data = await fetch(
-    "https://raw.githubusercontent.com/bikashdalapati-09/react-patel-mernstack/main/products.json"
-  );
-  const resData = await data.json();
+    const data = await fetch(
+      "https://raw.githubusercontent.com/bikashdalapati-09/react-patel-mernstack/main/products.json",
+    );
+    const resData = await data.json();
 
-  setTimeout(() => {
-    setLListofProduct(resData);
-  }, 1500);
-};
+    setTimeout(() => {
+      setListofProduct(resData);
+      setDummydata(resData)
+    }, 100);
+  };
 
-
-  if(listofProduct.length === 0){
-    return <Skeleton/>
+  if (listofProduct.length === 0) {
+    return <Skeleton />;
   }
 
   return (
     <div>
-      <button
-        onClick={() => {
-          const result = listofProduct.filter(
-            (product) => product.price >= 50000,
-          );
-          setLListofProduct(result);
-        }}
-        className="flagship"
-      >
-        flagship
-      </button>
+      <div className="menu-bar">
+        <button
+          onClick={() => {
+            const result = listofProduct.filter(
+              (product) => product.price >= 50000,
+            );
+            setDummydata(result);
+          }}
+          className="flagship"
+        >
+          flagship
+        </button>
+        <div className="search-bar">
+          <input type="text" onChange={(e)=>{setSearchText(e.target.value)} } value={searchText}></input>
+          <button onClick={ () => {
+            const searchData = listofProduct.filter((product) =>{
+              return product.name.includes(searchText)
+            })
+            setDummydata(searchData);
+          }}>Search</button>
+        </div>
+      </div>
       <div className="productCard">
-        {listofProduct.map((product, idx) => {
+        {dummydata.map((product, idx) => {
           return <Product key={idx} productObj={product} />;
         })}
       </div>
