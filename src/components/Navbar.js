@@ -1,4 +1,4 @@
-const Navbar = ({limit,setLimit}) => (
+const Navbar = () => (
   <div>
     <div className="navbar">
         <img src="https://i.pinimg.com/736x/05/38/a2/0538a2166b0ee8ba45e5ffb38aceb8c8.jpg" alt="logo" className="logo"/>
@@ -8,11 +8,6 @@ const Navbar = ({limit,setLimit}) => (
             <li>About</li>
             <li>Cart</li>
         </ul>
-    </div>
-    <div>
-      <button onClick={() => {
-        setLimit(limit === 0 ? 50000 : 0)
-      }} className="flagship">flagship</button>
     </div>
 
     </div>
