@@ -1,0 +1,17 @@
+{
+  "name": "my-react",
+  "version": "1.0.0",
+  "description": "Learning react from PatelMermStack",
+  "scripts": {
+    "dev": "parcel index.html"
+  },
+  "author": "Bikash",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.16.4"
+  },
+  "dependencies": {
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
+  }
+}

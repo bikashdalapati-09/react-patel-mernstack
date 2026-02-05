@@ -1,0 +1,87 @@
+.navbar {
+    display: flex;
+    align-items: center;     /* vertical center */
+    border-bottom: 1px solid black;
+    justify-content: space-between;
+}
+
+.navbar > ul {
+    padding-right: 90px;
+    display: flex;
+    font-size: 17px;
+    margin: 0;
+}
+
+.navbar > ul > li {
+    padding: 15px;
+    list-style-type: none;
+    cursor: pointer;
+}
+
+
+.logo {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    object-fit: cover;    
+}
+
+.productCard {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10;
+}
+
+.product {
+    border: 1px solid #ddd; 
+    width: 200px;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.product:hover {
+    transform: translateY(-3px);
+    /* box-shadow: 0 8px 14px rgba(0,0,0,0.15); */
+}
+
+
+.product > .product-img {
+    width: 200;
+    height: 200;
+}
+ .product > .name {
+    font-size: 19px;
+ }
+ .product > .ram {
+    font-size: 14px;
+ }
+ .product > .price {
+    font-size: 16px;
+ }
+ /* .product > .buy { */
+ .buy{
+    border-radius: 8px;
+    background-color: #e63946;
+    color: white;
+    border: none;
+    font-size: 13px;
+    padding: 8px 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.product > .buy:hover {
+    background-color: #d62828;
+}
+.flagship{
+    margin-top: 20px;
+    margin-left: 10px;
+    padding: 9px 16px;
+    display: flex;
+    justify-content: right;
+}
