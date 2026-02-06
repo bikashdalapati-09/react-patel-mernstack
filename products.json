@@ -4,174 +4,299 @@
     "name": "iPhone 15",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS94w2w-43I0tvli943pm_0zRfprmHAzYr1HA&s",
     "memory": "128GB",
-    "price": 79999
+    "price": 79999,
+    "performance": "Very smooth and fast for daily use",
+    "camera": "48 MP high-quality camera",
+    "battery": "All-day battery backup",
+    "display": "6.1-inch OLED display",
+    "rating": 4.7
   },
   {
     "id": 2,
     "name": "iPhone 15 Pro",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQE1cOjJimWkHXQFXibNZRh6jdr_LlDzKyaUQ&s",
     "memory": "256GB",
-    "price": 134999
+    "price": 134999,
+    "performance": "Ultra-fast flagship performance",
+    "camera": "48 MP professional camera system",
+    "battery": "Long-lasting battery",
+    "display": "6.1-inch Pro OLED display",
+    "rating": 4.8
   },
   {
     "id": 3,
     "name": "Samsung Galaxy S24",
     "image": "https://m.media-amazon.com/images/I/61+g6KrDXdL.jpg",
     "memory": "256GB",
-    "price": 74999
+    "price": 74999,
+    "performance": "Smooth performance for multitasking",
+    "camera": "50 MP sharp camera",
+    "battery": "Strong all-day battery",
+    "display": "6.2-inch AMOLED display",
+    "rating": 4.6
   },
   {
     "id": 4,
     "name": "Samsung Galaxy S24 Ultra",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmqXJJ_G2fXfQfbAENeskSvUDCICp-TPPcHg&s",
     "memory": "512GB",
-    "price": 129999
+    "price": 129999,
+    "performance": "Top-level performance for power users",
+    "camera": "200 MP premium camera",
+    "battery": "5000 mAh long battery life",
+    "display": "6.8-inch AMOLED display",
+    "rating": 4.8
   },
   {
     "id": 5,
     "name": "OnePlus 12",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdJXOzMB5L36L6ZWOxQFLHL1L8VwT_GX3MoQ&s",
     "memory": "256GB",
-    "price": 64999
+    "price": 64999,
+    "performance": "Fast and smooth performance",
+    "camera": "50 MP camera with good clarity",
+    "battery": "5400 mAh strong battery",
+    "display": "6.82-inch AMOLED display",
+    "rating": 4.6
   },
   {
     "id": 6,
     "name": "OnePlus Nord CE 3",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRW7QdSR5nQasxfrIHM-xFM31Di8oEz3QooZA&s",
     "memory": "128GB",
-    "price": 24999
+    "price": 24999,
+    "performance": "Good performance for daily tasks",
+    "camera": "64 MP decent camera",
+    "battery": "5000 mAh battery",
+    "display": "6.7-inch AMOLED display",
+    "rating": 4.3
   },
   {
     "id": 7,
     "name": "Google Pixel 8",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2eWRiusqHAWMQcJFoMTYGncyqo7I-lnM74A&s",
     "memory": "128GB",
-    "price": 75999
+    "price": 75999,
+    "performance": "Smooth and optimized performance",
+    "camera": "Best-in-class camera quality",
+    "battery": "Reliable all-day battery",
+    "display": "6.2-inch OLED display",
+    "rating": 4.7
   },
   {
     "id": 8,
     "name": "Google Pixel 8 Pro",
     "image": "https://media.tatacroma.com/Croma%20Assets/Communication/Mobiles/Images/309134_0_cv9vxa.png",
     "memory": "256GB",
-    "price": 106999
+    "price": 106999,
+    "performance": "Flagship-level smooth performance",
+    "camera": "Advanced camera with AI features",
+    "battery": "Long battery life",
+    "display": "6.7-inch OLED display",
+    "rating": 4.8
   },
   {
     "id": 9,
     "name": "Xiaomi 14",
     "image": "https://i02.appmifile.com/976_operatorx_operatorx_opx/23/02/2024/c4866f7bdd20c6ed7acf6082417dd340.png",
     "memory": "256GB",
-    "price": 69999
+    "price": 69999,
+    "performance": "Very fast and responsive",
+    "camera": "50 MP high-quality camera",
+    "battery": "Good battery backup",
+    "display": "6.36-inch AMOLED display",
+    "rating": 4.6
   },
   {
     "id": 10,
     "name": "Redmi Note 13 Pro",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTZIvdBzfHsNGUNqKXzNoLXnurSSAcYNeSww&s",
     "memory": "128GB",
-    "price": 23999
+    "price": 23999,
+    "performance": "Good performance for the price",
+    "camera": "200 MP impressive camera",
+    "battery": "5000 mAh battery",
+    "display": "6.67-inch AMOLED display",
+    "rating": 4.4
   },
   {
     "id": 11,
     "name": "Realme GT 6",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTeJu862p9crebKxTK-mp7pCftnGnQNIUKnw&s",
     "memory": "256GB",
-    "price": 34999
+    "price": 34999,
+    "performance": "Fast and reliable performance",
+    "camera": "50 MP good quality camera",
+    "battery": "5500 mAh long battery",
+    "display": "6.78-inch AMOLED display",
+    "rating": 4.4
   },
   {
     "id": 12,
     "name": "Vivo X100",
     "image": "https://in-exstatic-vivofs.vivo.com/gdHFRinHEMrj3yPG/1702983367485/d0467cb4099841dae725d707fce48b51.png",
     "memory": "256GB",
-    "price": 63999
+    "price": 63999,
+    "performance": "Powerful and smooth performance",
+    "camera": "50 MP premium camera",
+    "battery": "5000 mAh battery",
+    "display": "6.78-inch AMOLED display",
+    "rating": 4.6
   },
   {
     "id": 13,
     "name": "Vivo V29",
     "image": "https://in-exstatic-vivofs.vivo.com/gdHFRinHEMrj3yPG/1695699525608/226baaaaf95e26f22b367ad3e5a05151.png",
     "memory": "128GB",
-    "price": 32999
+    "price": 32999,
+    "performance": "Smooth daily performance",
+    "camera": "50 MP portrait camera",
+    "battery": "4600 mAh battery",
+    "display": "6.78-inch AMOLED display",
+    "rating": 4.4
   },
   {
     "id": 14,
     "name": "Oppo Find X7",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnkE6e8VJ6b-3iWRCS61sUWKxlOVhBkA35qQ&s",
     "memory": "256GB",
-    "price": 71999
+    "price": 71999,
+    "performance": "Flagship-grade performance",
+    "camera": "50 MP premium camera",
+    "battery": "5000 mAh battery",
+    "display": "6.78-inch AMOLED display",
+    "rating": 4.6
   },
   {
     "id": 15,
     "name": "Oppo Reno 11",
     "image": "https://img-prd-pim.poorvika.com/product/oppo-reno-11-por-5g-pearl-white-256gb-12gb-ram-front-back-view.png",
     "memory": "128GB",
-    "price": 28999
+    "price": 28999,
+    "performance": "Smooth performance for daily use",
+    "camera": "64 MP camera",
+    "battery": "4800 mAh battery",
+    "display": "6.7-inch AMOLED display",
+    "rating": 4.3
   },
   {
     "id": 16,
     "name": "iQOO 12",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkzlldmslmf2qbaOAvsCdsRVF1mHJjyPhYSg&s",
     "memory": "256GB",
-    "price": 52999
+    "price": 52999,
+    "performance": "Very powerful performance",
+    "camera": "50 MP camera",
+    "battery": "5000 mAh battery",
+    "display": "6.78-inch AMOLED display",
+    "rating": 4.6
   },
   {
     "id": 17,
     "name": "iQOO Neo 9 Pro",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqXoE4TMas_vQzFpg1KBfI_6jWBo2YZOEDgw&s",
     "memory": "256GB",
-    "price": 35999
+    "price": 35999,
+    "performance": "Fast and smooth performance",
+    "camera": "50 MP camera",
+    "battery": "5160 mAh battery",
+    "display": "6.78-inch AMOLED display",
+    "rating": 4.5
   },
   {
     "id": 18,
     "name": "Motorola Edge 40",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRslZK95LYtB1iaCZ_V_nrbwu_EY8mZLMqZJA&s",
     "memory": "128GB",
-    "price": 26999
+    "price": 26999,
+    "performance": "Good performance for daily use",
+    "camera": "50 MP camera",
+    "battery": "4400 mAh battery",
+    "display": "6.55-inch OLED display",
+    "rating": 4.3
   },
   {
     "id": 19,
     "name": "Motorola Edge 50 Pro",
     "image": "https://m.media-amazon.com/images/I/41-ZPyOc4lL._AC_UF1000,1000_QL80_.jpg",
     "memory": "256GB",
-    "price": 45999
+    "price": 45999,
+    "performance": "Powerful and smooth performance",
+    "camera": "50 MP camera",
+    "battery": "4500 mAh battery",
+    "display": "6.7-inch OLED display",
+    "rating": 4.5
   },
   {
     "id": 20,
     "name": "Nothing Phone (2)",
     "image": "https://assets.nikshanonline.com/wp-content/uploads/2023/07/Nothing-Phone-3-Dark-Grey-256-GB-12-GB-RAM.png",
     "memory": "256GB",
-    "price": 44999
+    "price": 44999,
+    "performance": "Smooth and clean performance",
+    "camera": "50 MP dual camera",
+    "battery": "4700 mAh battery",
+    "display": "6.7-inch OLED display",
+    "rating": 4.5
   },
   {
     "id": 21,
     "name": "Nothing Phone (2a)",
     "image": "https://media.tatacroma.com/Croma%20Assets/Communication/Mobiles/Images/308987_0_wcvjeh.png",
     "memory": "128GB",
-    "price": 23999
+    "price": 23999,
+    "performance": "Good performance for daily use",
+    "camera": "50 MP camera",
+    "battery": "5000 mAh battery",
+    "display": "6.7-inch AMOLED display",
+    "rating": 4.4
   },
   {
     "id": 22,
     "name": "Infinix Zero 30",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXlOQf0DX_MyynxkvRyjqC8VYX0OdkxUYp1w&s",
     "memory": "256GB",
-    "price": 21999
+    "price": 21999,
+    "performance": "Good performance for the price",
+    "camera": "50 MP selfie-focused camera",
+    "battery": "5000 mAh battery",
+    "display": "6.78-inch AMOLED display",
+    "rating": 4.2
   },
   {
     "id": 23,
     "name": "Tecno Phantom V Flip",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbe-nNnxW5MkU6D8SoC2Wtz4r91naRNCq1Hw&s",
     "memory": "256GB",
-    "price": 49999
+    "price": 49999,
+    "performance": "Smooth performance",
+    "camera": "64 MP camera",
+    "battery": "4000 mAh battery",
+    "display": "6.9-inch Foldable AMOLED",
+    "rating": 4.4
   },
   {
     "id": 24,
     "name": "Samsung Galaxy A55",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRmerHUcaWWotPWSrh1Ovm2kFce1T8SfYe5Q&s",
     "memory": "128GB",
-    "price": 38999
+    "price": 38999,
+    "performance": "Stable performance",
+    "camera": "50 MP camera",
+    "battery": "5000 mAh battery",
+    "display": "6.6-inch AMOLED display",
+    "rating": 4.4
   },
   {
     "id": 25,
     "name": "Lava Agni 2",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrNqAiClCecHu59wfdMgLgHdLJhesZHJiT6Q&s",
     "memory": "256GB",
-    "price": 19999
+    "price": 19999,
+    "performance": "Good performance for budget users",
+    "camera": "50 MP camera",
+    "battery": "4700 mAh battery",
+    "display": "6.78-inch AMOLED display",
+    "rating": 4.2
   }
 ]
