@@ -1,6 +1,7 @@
 import Product from "./Product";
 import { useEffect, useState } from "react";
 import Skeleton from "./Skeleton";
+import { Link } from "react-router-dom";
 
 const ProductCard = () => {
   const [listofProduct, setListofProduct] = useState([]);
@@ -52,8 +53,8 @@ const ProductCard = () => {
         </div>
       </div>
       <div className="productCard">
-        {dummydata.map((product, idx) => {
-          return <Product key={idx} productObj={product} />;
+        {dummydata.map((product) => {
+          return <Link key={product.id} to={`/product/${product.id}`} className="product-link"><Product productObj={product} /></Link>
         })}
       </div>
     </div>

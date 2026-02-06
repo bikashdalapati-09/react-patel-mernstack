@@ -6,9 +6,7 @@ const Product = (props) => {
             <h1 className="name">{name}</h1>
             <h2 className="ram">{memory}</h2>
             <h2 className="price">Price: ₹ {price}</h2>
-            <button className="buy" onClick={() => {
-                alert("Sorry !!!, Product is not available 😁")
-            }}>Buy now</button>
+            <button className="buy">Buy now</button>
         </div>
     )
 }

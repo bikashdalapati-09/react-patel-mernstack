@@ -7,6 +7,7 @@ import About from "./components/About";
 import Support from "./components/Support";
 import Cart from "./components/Cart";
 import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
+import ProductDetails from "./components/ProductDetails";
 
 const App = () => {
   return (
@@ -37,6 +38,10 @@ const appRouter = createBrowserRouter([
       {
         path: "/cart",
         element: <Cart />,
+      },
+      {
+        path: "/product/:productId",
+        element: <ProductDetails />
       },
     ],
   }
