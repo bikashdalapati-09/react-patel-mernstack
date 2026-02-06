@@ -2,18 +2,45 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import Navbar from "./components/Navbar";
 import ProductCard from "./components/ProductCard";
-import Skeleton from "./components/Skeleton";
-
-
+import Home from "./components/Home";
+import About from "./components/About";
+import Support from "./components/Support";
+import Cart from "./components/Cart";
+import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
 
 const App = () => {
-    return (
+  return (
     <div>
-    <Navbar />
-    <ProductCard />
+      <Navbar />
+      <Outlet />
     </div>
-)
-}
+  );
+};
 
-const root = ReactDOM.createRoot(document.getElementById("root"))
-root.render(<App/>)
+const appRouter = createBrowserRouter([
+  {
+    path: "/",
+    element: <App />,
+    children: [
+      {
+        path: "/",
+        element: <ProductCard />,
+      },
+      {
+        path: "/support",
+        element: <Support />,
+      },
+      {
+        path: "/about",
+        element: <About />,
+      },
+      {
+        path: "/cart",
+        element: <Cart />,
+      },
+    ],
+  }
+]);
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(<RouterProvider router={appRouter} />);

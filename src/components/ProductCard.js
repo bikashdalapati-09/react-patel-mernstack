@@ -42,10 +42,10 @@ const ProductCard = () => {
           flagship
         </button>
         <div className="search-bar">
-          <input type="text" onChange={(e)=>{setSearchText(e.target.value)} } value={searchText}></input>
+          <input type="text" placeholder="Find Your mobile" onChange={(e)=>{setSearchText(e.target.value)} } value={searchText}></input>
           <button onClick={ () => {
             const searchData = listofProduct.filter((product) =>{
-              return product.name.includes(searchText)
+              return product.name.toLowerCase().includes(searchText.toLowerCase())
             })
             setDummydata(searchData);
           }}>Search</button>
