@@ -12,8 +12,7 @@ function Home() {
         <Accordian 
         key={index} 
         title={title}
-        // open={index === open ? true : false}
-        open={true}
+        open={index === open ? true : false}
         setOpen = {()=> setOpen(index)}
         />))
         
