@@ -28,6 +28,10 @@ const appRouter = createBrowserRouter([
         element: <ProductCard />,
       },
       {
+        path: "/home",
+        element: <Home />,
+      },
+      {
         path: "/support",
         element: <Support />,
       },

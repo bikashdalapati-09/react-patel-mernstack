@@ -104,12 +104,12 @@
 .btnName{
     margin-left: 20;
     margin-right: -50;
-    border-radius: 8px;
+    border-radius: 100%;
     background-color: #e63946;
     color: white;
     border: none;
     font-size: 13px;
-    padding: 0px 14px;
+    padding: 1px 13px;
     cursor: pointer;
     transition: all 0.3s ease;
 }
