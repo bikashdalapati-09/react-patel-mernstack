@@ -44,7 +44,7 @@ function About() {
           @bikashdalapati-09
         </p>
 
-        <button className="mt-4 w-full border border-gray-300 rounded-md py-2 font-medium hover:bg-gray-100" onClick={()=>{
+        <button className="mt-4 w-full border border-gray-300 rounded-md py-2 font-medium hover:bg-gray-100 cursor-pointer" onClick={()=>{
           setFollow("Followed")
         }}>
           {follow}
