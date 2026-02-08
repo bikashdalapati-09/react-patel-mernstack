@@ -38,9 +38,12 @@
 
 .product {
     border: 1px solid #ddd; 
-    width: 200px;
+    width: 210px;
+    object-fit: contain;
+    display: block;
     text-align: center;
     margin: 10px;
+    margin-left: 24;
     padding: 10px;
     border-radius: 8px; 
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
@@ -73,7 +76,9 @@
     color: white;
     border: none;
     font-size: 13px;
-    padding: 8px 14px;
+    padding: 5px 14px;
+    padding-bottom: 8px;
+    margin-top: 5;
     cursor: pointer;
     transition: all 0.3s ease;
 }
