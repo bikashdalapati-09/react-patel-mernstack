@@ -1,8 +1,12 @@
 import { useState } from "react"
+import { useSelector } from "react-redux"
 import { Link } from "react-router-dom"
 
 const Navbar = () => {
   const [btnName, setBtnName] = useState("Light")
+  const cartItems = useSelector((store)=>store.cart.cartItems)
+  console.log(cartItems );
+  
   return (
   <div>
     <div className="navbar">
@@ -11,7 +15,8 @@ const Navbar = () => {
             <li><Link to="/home">Home</Link></li>
             <li><Link to="/support">Support</Link></li>
             <li><Link to="/about">About</Link></li>
-            <li><Link to="/cart">Cart</Link></li>
+            <li><Link to="/filter">Filter</Link></li>
+            <li><Link to="/cart">Cart-{cartItems.length}</Link></li>
             <button className="btnName" onClick={()=>{
               setBtnName(btnName == "Light" ? "Dark" : "Light")
             }}>{btnName}</button>

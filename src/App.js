@@ -4,17 +4,22 @@ import Navbar from "./components/Navbar";
 import ProductCard from "./components/ProductCard";
 import Home from "./components/Home";
 import About from "./components/About";
+import Filter from "./components/Filter";
 import Support from "./components/Support";
 import Cart from "./components/Cart";
 import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
 import ProductDetails from "./components/ProductDetails";
+import { Provider } from "react-redux";
+import appStore from "./store/store"
 
 const App = () => {
   return (
-    <div>
-      <Navbar />
-      <Outlet />
-    </div>
+    <Provider store={appStore}>
+      <div>
+        <Navbar />
+        <Outlet />
+      </div>
+    </Provider>
   );
 };
 
@@ -29,7 +34,7 @@ const appRouter = createBrowserRouter([
       },
       {
         path: "/home",
-        element: <Home />,
+        element: <ProductCard />,
       },
       {
         path: "/support",
@@ -44,11 +49,15 @@ const appRouter = createBrowserRouter([
         element: <Cart />,
       },
       {
+        path: "/filter",
+        element: <Filter />,
+      },
+      {
         path: "/product/:productId",
-        element: <ProductDetails />
+        element: <ProductDetails />,
       },
     ],
-  }
+  },
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
